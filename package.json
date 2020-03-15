@@ -1,0 +1,22 @@
+{
+  "name": "decury-api",
+  "version": "1.0.0",
+  "description": "Backend API of Decury.",
+  "main": "./src/main.js",
+  "author": "Decury",
+  "license": "GPL-2.0",
+  "scripts": {
+    "test": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Decury/decury-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Decury/decury-api/issues"
+  },
+  "homepage": "https://github.com/Decury/decury-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
