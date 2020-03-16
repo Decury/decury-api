@@ -1,5 +1,9 @@
 import express from "express";
+import v1 from "./v1";
 
-const app = express();
+const decury = express();
 
-app.listen(8080);
+decury.use("/v1", v1);
+decury.use((req, res) => res.status(404).send({"status": 404}));
+
+decury.listen(8080);
